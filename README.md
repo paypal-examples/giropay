@@ -3,7 +3,7 @@
 This integration uses the JavaScript SDK to accept Giropay payments
 
 
-See a [hosted version](https://demo-giropay-js-sdk.herokuapp.com) of the sample
+See a [hosted version](https://giropay-js-sdk.herokuapp.com) of the sample
 
 
 ### How to run locally
