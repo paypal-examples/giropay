@@ -77,8 +77,7 @@ paypal
     },
     fields: {
       name: {
-        value: '',
-        hidden: false,
+        value: ''
       },
     },
   })
