@@ -48,7 +48,7 @@ paypal
   .render('#giropay-mark')
 
 paypal
-  .Fields({
+  .PaymentFields({
     fundingSource: paypal.FUNDING.GIROPAY,
     style: {
       base: {
@@ -86,7 +86,6 @@ paypal
 paypal
   .Buttons({
     fundingSource: paypal.FUNDING.GIROPAY,
-    upgradeLSAT: true,
     style: {
       label: 'pay',
     },
@@ -116,6 +115,9 @@ paypal
 
 /* radio buttons */
 
+document.getElementById('giropay-container').style.display = 'none'
+document.getElementById('giropay-btn').style.display = 'none'
+
 // Listen for changes to the radio buttons
 document.querySelectorAll('input[name=payment-option]').forEach(el => {
   // handle button toggles
@@ -141,5 +143,3 @@ document.querySelectorAll('input[name=payment-option]').forEach(el => {
   })
 })
 
-document.getElementById('giropay-container').style.display = 'none'
-document.getElementById('giropay-btn').style.display = 'none'

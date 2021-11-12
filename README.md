@@ -1,6 +1,12 @@
-# Paying with Giropay
+# Paying with Giropay or PayPal on the web
 
-This integration uses the JavaScript SDK to accept Giropay payments
+<p>
+<img src="https://www.paypalobjects.com/images/checkout/latinum/Altpay_logo_giropay.svg" alt="Giropay Logo">
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" width="90px" alt="Paypal Logo">
+</p>
+
+
+This integration uses the JavaScript SDK to accept Giropay payments on the web
 
 
 See a [hosted version](https://giropay-js-sdk.herokuapp.com) of the sample
