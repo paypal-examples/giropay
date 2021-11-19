@@ -8,11 +8,7 @@ const order = {
         value: '49.11',
       },
     },
-  ],
-  application_context: {
-    return_url: `${window.location.origin}/success.html`,
-    cancel_url: `${window.location.origin}/cancel.html`,
-  },
+  ]
 }
 
 /* Paypal */
