@@ -29,4 +29,3 @@ and configuring your .env config file with your Paypal ClientId and ClientSecret
 
 ### PayPal Codespaces Links
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/paypal-examples/giropay)
-
